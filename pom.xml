@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>audit-service</name>
-	<description>Auditing </description>
+	<description>Auditing</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
