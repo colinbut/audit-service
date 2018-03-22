@@ -6,6 +6,7 @@
 package com.mycompany.audit.auditservice.jms;
 
 import com.mycompany.audit.auditservice.event.UserEvent;
+import com.mycompany.audit.auditservice.processor.UserEventProcessor;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
