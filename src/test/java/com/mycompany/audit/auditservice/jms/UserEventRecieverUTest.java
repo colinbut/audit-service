@@ -12,13 +12,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.jms.core.JmsTemplate;
 
 @RunWith(MockitoJUnitRunner.class)
 public class UserEventRecieverUTest {
-
-    @Mock
-    private JmsTemplate jmsTemplate;
 
     @Mock
     private UserEventProcessor userEventProcessor;
