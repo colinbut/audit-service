@@ -19,7 +19,7 @@ public class UserEventReciever {
     @Autowired
     private UserEventProcessor userEventProcessor;
 
-    @JmsListener(destination = "test-queue")
+    @JmsListener(destination = "user-event-topic")
     public void onMessage(UserEvent userEvent) {
         log.info("Received %s ", userEvent);
 
