@@ -85,6 +85,25 @@
 				</configuration>
 			</plugin>
 
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<version>5.0.7</version>
+				<configuration>
+					<url>jdbc:mysql://localhost:3306/auditdb</url>
+					<user>audit-user</user>
+					<password>audit-password</password>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>mysql</groupId>
+						<artifactId>mysql-connector-java</artifactId>
+						<version>5.1.23</version>
+					</dependency>
+
+				</dependencies>
+			</plugin>
+
 		</plugins>
 	</build>
 
