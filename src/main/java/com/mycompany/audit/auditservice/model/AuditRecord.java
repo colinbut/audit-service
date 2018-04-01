@@ -20,6 +20,4 @@ public class AuditRecord {
     private String secondName;
     private Date dateOfBirth;
 
-
-
 }
