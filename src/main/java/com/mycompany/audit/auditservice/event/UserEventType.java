@@ -8,5 +8,5 @@ package com.mycompany.audit.auditservice.event;
 public enum UserEventType {
     CREATED,
     UPDATED,
-    DELETED
+    DELETED;
 }
