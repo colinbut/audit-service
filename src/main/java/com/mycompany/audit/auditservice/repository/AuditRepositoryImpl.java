@@ -20,6 +20,7 @@ public class AuditRepositoryImpl implements AuditRepository{
 
     @Override
     public void saveAuditRecord(AuditRecord auditRecord) {
+        auditRecord.setId(auditRecordMap.size() + 1);
         auditRecordMap.put(auditRecord.getId(), auditRecord);
 
         auditRecordMap.values().forEach(auditRecord1 -> log.info("Record:%s - %s", auditRecord1.getId(), auditRecord1));
