@@ -23,5 +23,6 @@ public class UserDto {
     private String firstname;
     private String secondname;
     private Date dob;
+    private String email;
     private AddressDto address;
 }

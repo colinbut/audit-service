@@ -19,5 +19,6 @@ public class AuditRecord {
     private String firstName;
     private String secondName;
     private Date dateOfBirth;
+    private String email;
 
 }

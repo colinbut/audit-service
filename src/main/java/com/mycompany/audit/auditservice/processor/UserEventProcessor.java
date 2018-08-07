@@ -28,6 +28,7 @@ public class UserEventProcessor {
         auditRecord.setSecondName(userDto.getSecondname());
         auditRecord.setSsn(userDto.getSsn());
         auditRecord.setDateOfBirth(userDto.getDob());
+        auditRecord.setEmail(userDto.getEmail());
 
         auditService.logAudit(auditRecord);
     }
