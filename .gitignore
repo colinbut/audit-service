@@ -9,11 +9,12 @@
 *.project
 *.classpath
 *.iml
-
+*.factorypath
 
 .settings/*
 .idea/*
 target/* 
+.vscode/*
 
 # Packages #
 ############
